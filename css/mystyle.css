@@ -1,0 +1,353 @@
+
+body {
+    /*background:#dff577;*/
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left:80px;
+	margin-right:80px;
+	font-size:20px;
+	font-family:Helvetica;
+}
+header{
+	background:#dff500;
+	width:100%;
+    text-align:center;
+	border:6px solid #dff500 ;
+	border-radius:10px;
+	margin-bottom:50px;
+
+}
+footer{
+	background:#dff500;
+	border-radius:10px;
+	height:100px;
+	text-align:center;
+	
+}
+nav{
+	background:white;
+	height:60px;	
+}
+nav ul li .active {
+    border-bottom:3px #FFF solid;
+    }
+
+#profileimg{
+	width:50%;
+	float:left;
+	border-radius:100%;
+	display: block;
+    margin-left:75px;
+	margin-top:15px;
+}
+
+.headerClass{
+	
+	display:inline-block;
+	border:3px solid yellow;
+	height:180px;
+}
+nav ul  li{ 
+margin-top:20px;
+margin-bottom:20px;}
+p{
+	text-align: justify;
+    text-justify: inter-word;
+}
+ul li{
+			margin: 0 auto;
+			padding: 0;
+			width:200px;
+			display:inline-block;
+			border:2px solid red;
+			text-decoration: none;
+			background:#dff588;
+			border-radius:10px;
+			opacity:0.5;
+		
+			
+			
+		}
+		ul li:hover{
+			background:#dff500;
+			border-radius:10px;
+			color:Orange;
+			
+		}
+		ul a:hover {
+			background-color: #dff588;
+			color: white;
+			text-decoration: none;
+
+		}
+		ul li:active { 
+    background-color: #dff500;
+}
+
+
+h1 {
+    color: blue;
+    margin:0 auto;
+}
+
+#left{
+	
+	float:left;
+	width:300px;	
+vertical-align: middle;
+line-height: 180px;
+	
+	
+
+}
+#center{
+	width:400px;
+	margin: 0 auto;
+	text-align: center;
+vertical-align: middle;
+line-height: 180px;
+
+	
+}
+#right{
+	width:450px;
+	float:right;
+	margin: 0 auto;
+	text-align: center;
+	padding:auto;
+	}
+
+
+#socialmedia{
+	
+	list-style:none;
+	display:block;
+
+}
+#youtube{
+	color:white;
+	background:red;
+	border-radius:5px;
+}
+
+#socialmedia a li{
+		
+			text-decoration: none;
+			
+		}
+		
+		.active:active{
+			
+			background:#dff500;
+		}
+/* 		ul li:hover{
+			background:#dff588;
+			border-radius:10px;
+			opacity:0.75;
+		}
+		ul a:hover {
+			background-color: #dff588;
+			color: white;
+			text-decoration: none;
+
+		}
+		ul li:active { 
+    background-color: #dff500;
+}
+
+ 
+ 
+ unvisited link
+ 
+ ?
+a:link {
+    color: #FF0000;
+}
+
+visited link
+a:visited {
+    color: #00FF00;
+}
+
+mouse over link
+a:hover {
+    color: #FF00FF;
+}
+
+ selected link
+a:active {
+    color: #0000FF;
+} */
+
+.thumbnails{
+
+	
+	width:30%;
+	border:3px solid orange;
+	border-radius:5px;
+	margin-top:150px;
+	margin-bottom:150px;
+	margin-left:100px;
+	display:inline-block;
+	
+}
+.gallery{
+	
+	width:5%;
+}
+table {
+    border: 6px solid #dff500;
+	border-radius:12px;
+	
+}
+td{
+	border-radius:10px;
+	 border: 1px solid #dff500;
+}
+table tr td img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+ border: 3px solid #dff500;
+	border-radius:12px;
+	
+	margin:0 auto;
+}
+details{
+	margin-top:30px;
+	margin-bottom:30px;
+	/* background:Orange; */
+}
+summery{
+	background:#dff500;
+}
+.thumbnailsimg{
+	
+	width:55%;
+	
+}
+#gallerythumbnail1{
+	
+	float:left;
+	display:inline-block;
+	
+}
+#gallerythumbnail2{
+	
+	float:right;
+	
+	}
+#gallerythumbnail3{
+	
+	float:left;
+	display:inline-block;
+	
+}
+#gallerythumbnail14{
+	
+	float:right;
+	
+}
+#timep{
+	
+	background:#dff500;
+	width:300px;
+	height:30px;
+	text-align:center;
+	border-radius:5px;
+	margin-bottom:5px;
+}
+
+footer{
+	margin-top:80px;
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #dff500;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

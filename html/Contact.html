@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> HTML and CSS </title>
+		<link rel = "stylesheet" type = "text/css" href = "../css/mystyle.css">
+		
+		
+	</head>
+	<body>
+		<header>
+		
+		<div id = "left" class = "headerClass">  <img id = "profileimg" src = "../img/bef.jpg"> </div>
+
+		<div id = "center" class = "headerClass"><h1>Befekadu Mezgebu </h1> </div>
+		<div id = "right" class = "headerClass"> 
+			<p>
+			Helsinki Metropolia University of Applied Sciences<br>
+			Information and Communication Technology<br>
+			Befekadu Mezgebu Temere<br>
+			Kirstinharju 1<br>
+			02760 ESPOO, Finland
+			<a href="mailto:befekadumz@gmail.com"></a><br> 
+			</p>
+
+		</div>
+		
+
+	
+		<nav>
+		<ul>
+		  <a href="../html/Home.html"> <li> Home </li></a>
+		  <a href="../html/Skills.html"> <li>Skills</li></a>
+		  <a href="../html/Projects.html"> <li>Projects</li></a>
+		  <a href="../html/Gallery.html"> <li>Gallery</li></a>
+		  <a class = "active" href="../html/Contact.html"> <li>Contact</li></a>
+		 
+		</ul>
+		</nav>
+		
+	</header>
+	
+	
+	
+<form name="myForm" action="demo_form.asp" onsubmit="return validateForm()" method="post">
+ <fieldset>
+  <legend>Contact me:</legend>
+  First name: <input type="text" name="fname" size="30" required placeholder="Enter name"><br>
+  Last name: <input type="text" name="lname" size="30" required placeholder="Enter family name"><br>
+Gender:
+<select>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  
+</select><br>
+Age:<input type = "number" name = "agename" required><br>
+  Email Address: <input type="email" name="email" required placeholder="Enter a valid email address"><br>
+  Website Address: <input type="url" name="website" size = "50" required pattern="https?://.+"><br>
+Comment:<br>
+<textarea rows="4" cols="50"></textarea>
+<input type="submit" value="Submit">
+<button type="reset" value="Reset">Reset</button>
+ </fieldset>
+</form>
+
+		
+		
+		
+		
+		
+		
+		
+		
+			
+	<footer>
+<h1> Helsinki Metropolia UAS </h1>
+
+<ul id = "socialmedia">
+ <a href = "https://www.facebook.com" > <li> Facebook</li> </a> 
+ <a href = "https://www.youtube.com" > <li> You <span id = "youtube">Tube</span></li> </a>
+ <a href = "https://www.instagram.com" > <li> Instagram </li> </a>
+ </ul>
+</footer>
+	<script src="../js/myjs.js"></script>
+	</body>
+</html>
